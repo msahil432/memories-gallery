@@ -1,0 +1,29 @@
+.root {
+    .top {
+        header {
+            color: black;
+        }
+    }
+    .content {
+        color: blue;
+    }
+    .bottom {
+        footer {
+            a {
+                color: black;
+            }
+        }
+    }
+
+    .pseudo-photo-frame {
+        height: 40px;
+        width: 52px;
+
+        margin: 16px;
+        border: 1px solid red;
+
+        &.slanted {
+            transform: rotate(45deg);
+        }
+    }
+}

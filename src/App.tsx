@@ -1,16 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import AppFrame from './components/app-frame/app-frame';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Work in progress...
-        </p>
-      </header>
+    <div className="App vh-100">
+      <AppFrame />
     </div>
   );
 }
